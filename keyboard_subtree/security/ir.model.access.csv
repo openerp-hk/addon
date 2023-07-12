@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_keyboard_subtree_keyboard_subtree,keyboard_subtree.keyboard_subtree1,model_keyboard_subtree,base.group_user,1,1,1,1
+access_keyboard_subtree_keyboard_subtree2,keyboard_subtree.keyboard_subtree2,model_keyboard_subtree_line,base.group_user,1,1,1,1
