@@ -10,7 +10,7 @@
     """,
 
     'author': "Josh.Feng, Openerp.HK, Odoo.Red, Odoo SA",
-    'website': "https://cdn.odoo.red/""https://cdn.openerp.hk/",
+    'website': "https://cdn.odoo.red/",
 
     # Free your hands from the mouse!
     'category': 'Accounting',
