@@ -10,7 +10,7 @@
         Multi Stage Approval & Countersign & Cross Department.""",
 
     'version': '14.0.1.0.0',
-    'author': "Cunzhang Xi, Openerp.HK, Odoo.Red, Odoo SA",
+    'author': "Chunzhang Xi, Openerp.HK, Odoo.Red, Odoo SA",
     'website': "https://cdn.odoo.red",
     'license': 'LGPL-3',
     'maintainer': 'OpenERP.HK',
