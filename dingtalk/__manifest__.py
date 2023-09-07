@@ -32,7 +32,7 @@
     ],
     'qweb': [
     ],
-    'images': ['static/description/openerp1.png'],
+    'images': ['static/description/images/sync_overview.png'],
     'installable': True,
     'application': True,
     'auto_install': False,
