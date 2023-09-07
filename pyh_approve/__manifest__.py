@@ -28,5 +28,5 @@
     'auto_install': False,
     'installable': True,
     'application': True,
-    'images': ['static/description/approval_flow_view.png'],
+    'images': ['static/description/images/approval_flow_view.png'],
 }
