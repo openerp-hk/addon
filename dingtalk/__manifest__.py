@@ -8,8 +8,8 @@
     'description': """
         钉钉同步模块主要解决客户已经在使用钉钉协同工具与odoo的使用结合;可以在钉钉内打开odoo并同步组织架构及审批和消息以及考勤和请假等信息""",
 
-    'author': "Openerphk Team",
-    'website': "Shuai Wang, Openerp.HK, Odoo.Red, Odoo SA",
+    'author': "Shuai Wang, Openerp.HK, Odoo.Red, Odoo SA",
+    'website': "https://cdn.odoo.red",
     'license': 'LGPL-3',
 
     # Categories can be used to filter modules in modules listing
