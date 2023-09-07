@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_config_check,config.approve.check,model_config_approve_check,base.group_erp_manager,1,1,1,1
+access_config_check_line,config.check.line,model_config_check_line,base.group_erp_manager,1,1,1,1
+access_order_check_line_manager,order.check.line,model_order_check_line,base.group_erp_manager,1,1,1,1
+
+access_order_check_line_user,order.check.line,model_order_check_line,base.group_user,1,1,1,0
+access_config_check_line,config.check.line,model_config_check_line,base.group_user,1,1,1,0
+access_config_check,config.approve.check,model_config_approve_check,base.group_user,1,1,1,0
