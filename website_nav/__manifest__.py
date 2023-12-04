@@ -29,6 +29,7 @@
         'static/description/theme_screenshot.png',
     ],
     'license': 'LGPL-3',
+    'images': ['static/description/images/theme_icon.png'],
     'installable': True,
     'application': False,
     'auto_install': False,
