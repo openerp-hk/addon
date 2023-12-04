@@ -1,0 +1,331 @@
+ /*清除默认 */
+/*@media (min-width:1500px) {*/
+/*    .navheader {*/
+/*        font-size: 100px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width:1300px) and (max-width:1499px) {*/
+/*    html {*/
+/*        font-size: 83px !important;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width:800px) and (max-width:1399px) {*/
+/*    html {*/
+/*        font-size: 72px !important;*/
+/*    }*/
+/*}*/
+/*img {*/
+/*    vertical-align: middle;*/
+/*}*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 点击态 */
+/*[click] {*/
+/*    user-select: none;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*}*/
+
+[click]:hover {
+    opacity: .8;
+    transition: all .15s linear;
+}
+
+[click]:active::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* 导航栏 */
+
+
+.navheader {
+    width: 100%;
+    height: .92em;
+    z-index: 100;
+    background: rgba(255, 255, 255, 1);
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 83px !important;
+
+}
+
+/* === 侧边栏按钮=== */
+.navheader .menu {
+    width: 1.12em;
+    height: .92em;
+    background: #ED1F38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 83px !important;
+    padding-left: .4em;
+}
+
+.navheader .menu:hover .slider {
+    transform: translateX(-0%);
+}
+
+.navheader .menu img {
+    width: 45px;
+    height: 45px;
+}
+
+/* === 导航栏LOGO ===  */
+.navheader .logo {
+    height: 45px;
+    cursor: pointer;
+    margin-right: 68px;
+    margin-left: 1px;
+}
+
+/* === 导航按钮 === */
+.navheader .routes {
+    margin-right: 76em;
+    font-size: 1px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navheader .routes ul li a  {
+    color: #333333;
+    margin-right: 0;
+    display: flex;
+}
+
+.navheader.routes ul li {
+
+}
+
+.navheader .routes span.active {
+    font-weight: bold;
+    color: #E22037;
+}
+
+
+
+/* 侧边栏 */
+.navheader .menu .slider,
+.navheader .menu .slider ul {
+    width: 2.39em;
+    position: fixed;
+    top: .92em;
+    left: 0;
+    height: calc(100vh - .92em);
+    background: #0A1931;
+    transform: translateX(-100%);
+    transition: all .15s linear;
+    z-index: 10;
+    font-size: 83px;
+}
+
+.slider.show {
+    transform: translateX(-0%);
+}
+
+.navheader .menu .slider li ul li ul li {
+    display: flex;
+}
+
+.navheader .menu .slider li {
+    text-align: center;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 16px;
+    cursor: pointer;
+    justify-content: center;
+    position: relative;
+}
+
+.navheader .menu .slider li>ul {
+    font-size: 16px;
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    display: none;
+}
+
+.navheader .menu .slider li:hover>ul {
+    display: block;
+}
+
+.navheader .menu .slider li>ul img {
+    margin-left: .67em;
+    width: .50em;
+    height: .78em;
+    right: .72em;
+    bottom: .5em;
+    vertical-align: middle;
+}
+
+.navheader .menu .slider li div {}
+
+.navheader .menu .slider li img {
+    display: inline-block;
+    margin-left: .67em;
+    width: .50em;
+    height: .78em;
+    position: absolute;
+    right: .72em;
+    bottom: .5em;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: #0B1A31;
+    padding-top: 2.11rem;
+    position: relative;
+    margin-top: -1.51rem;
+}
+
+.footer .footer-wrapper {
+    margin: 0 auto;
+    width: 120rem;
+}
+
+.footer .logo {
+    /* width: 412px; */
+    height: .60rem;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .76rem;
+}
+
+.footer .footer-wrapper .box {
+    padding: .50rem .43rem;
+    padding-right: .23rem;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer .footer-wrapper .box .left {
+    flex: 2;
+    margin-right: .54rem;
+}
+
+.footer .footer-wrapper .box .left .title {
+    font-size: 2.30rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: .30rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    margin-bottom: .45rem;
+}
+
+.footer .footer-wrapper .box .left .title img {
+    width: .39rem;
+    height: .39rem;
+    margin-right: .10rem;
+}
+
+.footer .footer-wrapper .box .left .desc {
+    font-size: .12rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .7);
+}
+
+.footer .footer-wrapper .box ul {
+    flex: 1;
+}
+
+.footer .footer-wrapper .box ul:nth-child(5) {
+    padding-left: .25rem;
+}
+
+.footer .footer-wrapper .box ul li {
+    font-size: 1.66rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: .24rem;
+}
+
+.footer .footer-wrapper .box ul li.name {
+    font-weight: bold;
+    margin-bottom: .30rem;
+}
+
+.footer .footer-wrapper .box ul:last-child .name {
+    text-align: center;
+}
+
+.footer .footer-wrapper .box ul li img {
+    width: 1.10rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer .footer-wrapper .imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer-wrapper .imgs div {
+    width: 2rem;
+    height: 1rem;
+    margin-right: 0px;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.footer .footer-wrapper .imgs img {
+    max-width: 2.01rem;
+    max-height: 1rem;
+
+}
+
+.footer h1 {
+    color: rgba(255, 255, 255, .7);
+    text-align: center;
+    font-size: .5rem;
+}
+
+.footer .footer-wrapper .imgs div:nth-child(6n) {
+    margin-right: 0;
+}
+
+.footer .footer-wrapper .contact {
+    display: flex;
+    justify-content: space-between;
+    font-size: .15rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .7);
+    margin-top: .27rem;
+}
+
+.footer .footer-wrapper a {
+    width: 100%;
+    font-size: 1.16rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #fcfcfc;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}

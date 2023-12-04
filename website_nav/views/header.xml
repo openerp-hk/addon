@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="theme_header" inherit_id="website.layout" name="Boec Header">
+        <xpath expr="//header" position="replace">
+    <div class="navheader row ">
+        <div class="nav menu" click="">
+            <img src="/website_odoo/static/src/images/home/menu.png"  alt=""/>
+            <ul class="slider">
+                <li>
+                    <div>
+                        技术服务
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" style="" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            Python开发
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/jspython"
+                                       style="position:relative; overflow:hidden; color: white;">Python开发外包
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/webdev" style="color: white;">云端同步</a>
+                                </li>
+                                <li>
+                                    <a href="/box" style="color: white;">嵌入式开发</a>
+                                </li>
+                                <li>
+                                    <a href="/mobile" style="color: white;">移动端同步</a>
+                                </li>
+                                <li>
+                                    <a href="/browser" style="color: white;">模板引擎</a>
+                                </li>
+                                <li>
+                                    <a href="/database" style="color: white;">数据库接口</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            JavaScript开发
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/intro" style="color: white;">JavaScript</a>
+                                </li>
+                                <li>
+                                    <a href="/database" style="color: white;">多库集成</a>
+                                </li>
+                                <li>
+                                    <a href="/math" style="color: white;">RPC</a>
+                                </li>
+                                <li>
+                                    <a href="/mobile" style="color: white;">渲染</a>
+                                </li>
+                                <li>
+                                    <a href="/api" style="color: white;">SQL注入</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Widget开发
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="https://my.oschina.net/u/3234288" style="color: white;">MVC</a>
+                                </li>
+                                <li>
+                                    <a href="/webcustom" style="color: white;">渲染</a>
+                                </li>
+                                <li>
+                                    <a href="/invoice" style="color: white;">继承</a>
+                                </li>
+                                <li>
+                                    <a href="/transform" style="color: white;">缓存</a>
+                                </li>
+                                <li>
+                                    <a href="/webcustom" style="color: white;">安全</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            数据库优化
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/uml" style="color: white;">建模</a>
+                                </li>
+                                <li>
+                                    <a href="/database" style="color: white;">并表</a>
+                                </li>
+                                <li>
+                                    <a href="/transform" style="color: white;">SQL</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            UI/UX设计服务
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/webcustom" style="color: white;">UI设计</a>
+                                </li>
+                                <li>
+                                    <a href="/mobile" style="color: white;">自动分屏</a>
+                                </li>
+                                <li>
+                                    <a href="/frontdash" style="color: white;">多端同屏</a>
+                                </li>
+                                <li>
+                                    <a href="/tv" style="color: white;">动态加载</a>
+                                </li>
+                                <li>
+                                    <a href="/mobile" style="color: white;">跨浏览器支持</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            小程序定制
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/pricingpack" style="color: white;">主页</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">管理</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">活动</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">营销</a>
+                                </li>
+                                <li>
+                                    <a href="/faq" style="color: white;">控制</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            报表引擎
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/invoice" style="color: white;">模板</a>
+                                </li>
+                                <li>
+                                    <a href="/invoice" style="color: white;">渲染</a>
+                                </li>
+                                <li>
+                                    <a href="/tranform" style="color: white;">加载效率</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            接口服务
+                            <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                            <ul>
+                                <li>
+                                    <a href="/" style="color: white;">钉钉</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">企业微信</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">DHL</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">微信小程序</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">EBay</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">UPS</a>
+                                </li>
+                                <li>
+                                    <a href="/" style="color: white;">VOIP</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div onclick="location.href='/price'">
+                        定价
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        解决方案
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            <a href="/" style="color: white;">业财一体</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">集团多公司</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">销售贸易</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">生产制造</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">供应链金融案例</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>
+                        其他内容
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            <a href="/download" style="color: white;">下载中心</a>
+                        </li>
+                        <li>
+                            <a href="/intro" style="color: white;">开源社区</a>
+                        </li>
+                        <li>
+                            <a href="/docs" style="color: white;">技术文档</a>
+                        </li>
+                        <li>
+                            <a href="/contactus" style="color: white;">常见问题</a>
+                        </li>
+                        <li>
+                            <a href="/docs" style="color: white;">用户使用帮助</a>
+                        </li>
+                        <li>
+                            <a href="/tutorial" style="color: white;">开源操作手册</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>
+                        应用下载
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            <a href="/" style="color: white;">全部</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">销售</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">库存</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">财务</a>
+                        </li>
+                        <li>
+                            <a href="/" style="color: white;">网站</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div onclick="location.href='/appsearch'">
+                        案例中心
+                    </div>
+                </li>
+                <li>
+                    <div onclick="location.href='/download'">
+                        下载中心
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        技术论坛
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            <a href="http://odoosh.cn/" style="color: white;">OpenERP.HK技术论坛</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>
+                        关于我们
+                    </div>
+                    <img src="/website_odoo/static/src/images/home/prev.png" alt="" srcset=""/>
+                    <ul>
+                        <li>
+                            <a href="/contactus" style="color: white;">公司简介</a>
+                        </li>
+                        <li>
+                            <a href="/contactus" style="color: white;">招贤纳士</a>
+                        </li>
+                        <li>
+                            <a href="/contactus" style="color: white;">新闻动态</a>
+                        </li>
+                        <li>
+                            <a href="/contactus" style="color: white;">联系我们</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-1 nav">
+                <img src="/website_odoo/static/src/images/home/logo.png" class="logo"/>
+        </div>
+        <div class="routes col-8 justify-content-md-center">
+            <ul class="nav " style="font-size: 16px">
+                <li class="nav-item">
+			<a class="nav-link" href="https://us.odoo.red">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://cdn.odoo.red/product">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://cdn.odoo.red/price">Price</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://cdn.odoo.red/appsearch">Cases</a>
+                </li>
+                <li class="nav-item">
+			<a class="nav-link" href="/contactus">Knowledge</a>
+                </li>
+                <li class="nav-item">
+			<a class="nav-link" href="/">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">中文</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://cdn.odoo.red/contactus">About Us</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="col-1" style="Font-size:16px">
+            <ul class="nav navbar-nav navbar-expand d-none d-sm-block">
+                <!-- Sign In -->
+                <t t-call="portal.placeholder_user_sign_in">
+                    <t t-set="_item_class" t-valuef="nav-item ms-3"/>
+                    <t t-set="_link_class" t-valuef="nav-link"/>
+                </t>
+                <!-- User Dropdown -->
+                <t t-call="portal.user_dropdown">
+                    <t t-set="_icon" t-value="true"/>
+                    <t t-set="_item_class" t-valuef="nav-item dropdown ms-3"/>
+                    <t t-set="_link_class" t-valuef="nav-link"/>
+                    <t t-set="_dropdown_menu_class" t-valuef="position-absolute dropdown-menu-end"/>
+                </t>
+            </ul>
+        </div>
+    </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="theme_boec_footer" inherit_id="website.layout" name="Boec Footer">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <section class="footer">
+
+                    <div class="footer-wrapper">
+
+                        <h1>Trusted By</h1>
+                        <div class="imgs" id="img-foot"></div>
+                        <div class="box">
+                            <div class="left">
+                                <p class="title">
+                                    info@openerp.hk
+                                </p>
+                                <p class="desc">
+                                    About OpenERP.HK Team
+                                    Our mission is to provide a range of easy to use business applications that form a
+                                    complete suite of tools to accompany any business need. We give millions of
+                                    companies easy access to the software they need to run and expand their business.
+                                </p>
+                            </div>
+                            <ul>
+                                <li class="name">Customization</li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/webcustom'>Shop</a>
+                                </li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/browser'>CRM/ERP</a>
+                                </li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/transform'>Database</a>
+                                </li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/invoice'>Development</a>
+                                </li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/frontdash'>Interface</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="name">Service</li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/download'>Download</a>
+                                </li>
+                                <li>
+                                    <a href='https://cdn.odoo.red/intro'>Community</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="name">Store</li>
+                                <li>
+                                    <a href='https://us.odoo.red'>Free Apps</a>
+                                </li>
+                                <li>
+                                    <a href='https://us.odoo.red/'>Paid Apps</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="name">ContactUS</li>
+                                <li>
+                                    <a href='https://us.odoo.red/contactus'>Join US</a>
+                                </li>
+                                <li>
+                                    <a href='https://us.odoo.red/contactus'>Contact US</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="name">官方公众号</li>
+                                <li>
+                                    <img src="/static/index/img/del/code.png" alt="" srcset=""/>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="imgs" id="img-foot">
+                        </div>
+
+                    </div>
+
+                </section>
+            </xpath>
+        </template>
+    </data>
+</odoo>
+
