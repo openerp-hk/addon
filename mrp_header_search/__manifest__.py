@@ -5,7 +5,7 @@
     'summary': "MRP Date Search",
 
     'description': """
-    This add-on is a funtional plug-in that creates a fixed filter bar in the accounting module for list views.
+    This add-on is a funtional plug-in that creates a fixed filter bar in the MRP module for list views.
     
     """,
 
