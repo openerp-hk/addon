@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <record id="vpicktree_extend" model="ir.ui.view">
+            <field name="name">stock.picking.tree.extend</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.vpicktree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="js_class">stock_header_search</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
