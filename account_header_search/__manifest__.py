@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "List View Date Search",
+    'name': "List View Date Filters",
 
-    'summary': "List View Date Search",
+    'summary': "List View Date Filters",
 
     'description': """
     This add-on is a funtional plug-in that creates a fixed filter bar in the accounting module for list views.
