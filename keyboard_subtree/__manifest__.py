@@ -2,7 +2,7 @@
 {
     'name': "keyboard_subtree",
 
-    'summary': """Orderline Keyboard Control""",
+    'summary': """Orderline Keyboard""",
 
     'description': """
         This module adds a Keyboard Control function to the OrderLine. 
