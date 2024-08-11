@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "MRP Date Search",
+    'name': "MRP Date Filters",
 
-    'summary': "MRP Date Search",
+    'summary': "MRP Date Filters",
 
     'description': """
     This add-on is a funtional plug-in that creates a fixed filter bar in the MRP module for list views.
