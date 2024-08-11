@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "keyboard_subtree",
+    'name': "Orderline Keyboard",
 
     'summary': """Orderline Keyboard""",
 
