@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-inherit="account.ListRenderer" t-inherit-mode="extension">
+        <xpath expr="//thead//th[@t-if='hasSelectors']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <th class="o_list_record_selector"/>
+            </t>
+        </xpath>
+        <xpath expr="//tfoot//td[@t-if='hasSelectors']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <td class="o_list_record_selector"/>
+            </t>
+        </xpath>
+    </t>
+
+</templates>
