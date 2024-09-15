@@ -33,6 +33,7 @@
             "web_list_serial_number/static/src/views/list/*.*",
         ],
     },    
+    'license': 'LGPL-3',
     'installable': True,
     'auto_install': False,
     'application': True,
