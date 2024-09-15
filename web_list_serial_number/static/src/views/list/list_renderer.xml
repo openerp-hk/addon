@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="web_list_serial_number.ListRenderer" t-inherit="web.ListRenderer" t-inherit-mode="primary">
+        <xpath expr="//thead//th[@t-if='hasSelectors']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <th class="o_list_record_selector"/>
+            </t>
+        </xpath>
+        <xpath expr="//tfoot//td[@t-if='hasSelectors']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <td class="o_list_record_selector"/>
+            </t>
+        </xpath>
+    </t>
+
+    <t t-name="web_list_serial_number.ListRenderer.RecordRow" t-inherit="web.ListRenderer.RecordRow" t-inherit-mode="primary">
+        <xpath expr="//td[@t-if='hasSelectors']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <t t-set="num" t-value="(record_index + 1) + list.offset"/>
+                <td t-esc="num" t-att-data-tooltip="num" class="cursor-pointer"/>
+            </t>
+        </xpath>
+    </t>
+
+    <t t-name="web_list_serial_number.ListRenderer.Rows" t-inherit="web.ListRenderer.Rows" t-inherit-mode="primary">
+        <xpath expr="//tr[@t-foreach='getEmptyRowIds']/td" position="before">
+            <t t-debug="1"/>
+            <t t-if="serialNumber.numSwitch">
+                <td/>
+            </t>
+        </xpath>
+        <xpath expr="//td[@t-if='withHandleColumn']" position="before">
+            <t t-if="serialNumber.numSwitch">
+                <td/>
+            </t>
+        </xpath>
+    </t>
+
+</templates>
