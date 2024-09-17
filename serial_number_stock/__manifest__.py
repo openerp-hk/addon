@@ -31,6 +31,7 @@
             "serial_number_stock/static/src/views/*/*.*",
         ],
     },
+    'license': 'LGPL-3',
     'installable': True,
     'auto_install': False,
     'application': True,
