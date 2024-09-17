@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="inherit_stock_scrap_tree_view" model="ir.ui.view">
+        <field name="name">inherit.stock.scrap.tree</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="js_class">serialNumberListView</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="inherit_vpicktree" model="ir.ui.view">
+        <field name="name">inherit.stock.picking.tree</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.vpicktree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="js_class">serialNumberListView</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="inherit_product_template_tree_view" model="ir.ui.view">
+        <field name="name">inherit.product.template.product.tree</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="js_class">serialNumberListView</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="inherit_view_move_line_tree" model="ir.ui.view">
+        <field name="name">inherit.stock.move.line.tree</field>
+        <field name="model">stock.move.line</field>
+        <field name="inherit_id" ref="product.view_move_line_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="js_class">serialNumberListView</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
