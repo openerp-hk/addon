@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "field_required_styles",
+    'name': "Required field styles",
 
     'summary': "Highlighting Required Fields",
 
