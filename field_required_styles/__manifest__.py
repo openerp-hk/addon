@@ -34,6 +34,6 @@
             'field_required_styles/static/src/xml/field_required_label.xml'
         ],
     },
-
+   'images': ['static/description/images/thumbnail.jpg'],
     'license': 'AGPL-3',
 }
