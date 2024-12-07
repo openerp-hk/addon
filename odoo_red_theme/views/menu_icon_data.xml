@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="menu_icon_data_tree" model="ir.ui.view">
+        <field name="name">menu.icon.data.tree</field>
+        <field name="model">menu.icon.data</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <header>
+                    <button name="sync_icon_data" type="object" string="Sync Icon"/>
+                </header>
+                <field name="menu_id"/>
+                <field name="icon_data" widget="image" class="theme_icon"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="menu_icon_data_act" model="ir.actions.act_window">
+        <field name="name">Icon</field>
+        <field name="res_model">menu.icon.data</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem id="menu_icon_data_menu" name="Icon" parent="base.menu_administration" action="menu_icon_data_act"/>
+
+</odoo>

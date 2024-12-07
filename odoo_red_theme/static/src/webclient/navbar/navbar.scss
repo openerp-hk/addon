@@ -1,0 +1,26 @@
+.o_main_navbar {
+  border-bottom: none !important;
+  background: $menu-background-color !important;
+
+  .o_menu_systray {
+    div {
+      button {
+        i, .oe_topbar_name {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .system_box {
+    width: $menu-width;
+    height: 100%;
+    display: flex;
+    padding: 5px 10px;
+    padding-left: 30px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

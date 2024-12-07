@@ -1,0 +1,152 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* openerphk_theme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-03 06:23+0000\n"
+"PO-Revision-Date: 2024-12-03 06:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: openerphk_theme
+#: model:ir.model,name:openerphk_theme.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: openerphk_theme
+#. odoo-javascript
+#: code:addons/openerphk_theme/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+#: code:addons/openerphk_theme/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+#, python-format
+msgid "Discard changes"
+msgstr "放弃更改"
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__id
+msgid "ID"
+msgstr ""
+
+#. module: openerphk_theme
+#: model:ir.actions.act_window,name:openerphk_theme.menu_icon_data_act
+#: model:ir.ui.menu,name:openerphk_theme.menu_icon_data_menu
+msgid "Icon"
+msgstr "图标"
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.openerphk_theme_login
+msgid "Log in"
+msgstr "登陆"
+
+#. module: openerphk_theme
+#: model:ir.model,name:openerphk_theme.model_ir_ui_menu
+msgid "Menu"
+msgstr "菜单"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.theme_res_config_settings_view_form
+msgid "Nav"
+msgstr "导航菜单"
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_res_config_settings__nav_logo
+msgid "Nav Logo"
+msgstr "导航菜单图标"
+
+#. module: openerphk_theme
+#. odoo-javascript
+#: code:addons/openerphk_theme/static/src/webclient/menu/menu.xml:0
+#, python-format
+msgid "Navigation menu"
+msgstr "导航菜单"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.openerphk_theme_login
+msgid "Please enter your account"
+msgstr "请输入账号"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.openerphk_theme_login
+msgid "Please input a password"
+msgstr "请输入密码"
+
+#. module: openerphk_theme
+#. odoo-javascript
+#: code:addons/openerphk_theme/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+#, python-format
+msgid "Save"
+msgstr "保存"
+
+#. module: openerphk_theme
+#. odoo-javascript
+#: code:addons/openerphk_theme/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+#, python-format
+msgid "Save manually"
+msgstr "保存"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.menu_icon_data_tree
+msgid "Sync Icon"
+msgstr "同步图标"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.theme_res_config_settings_view_form
+msgid "System"
+msgstr "系统"
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_res_config_settings__system_logo
+msgid "System Logo"
+msgstr "系统图标"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.theme_res_config_settings_view_form
+msgid "Theme"
+msgstr "主题"
+
+#. module: openerphk_theme
+#: model_terms:ir.ui.view,arch_db:openerphk_theme.openerphk_theme_login
+msgid "accounts login"
+msgstr "账号密码登陆"
+
+#. module: openerphk_theme
+#: model:ir.model,name:openerphk_theme.model_menu_icon_data
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__icon_data
+msgid "icon"
+msgstr "图标"
+
+#. module: openerphk_theme
+#: model:ir.model.fields,field_description:openerphk_theme.field_menu_icon_data__menu_id
+msgid "menu"
+msgstr "菜单"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="theme_res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">theme.inherit.res.config.settings.view.form</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="70"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app string="Theme" name="theme" logo="/openerphk_theme/static/description/icon.png">
+                    <block title="System">
+                        <setting>
+                            <field name="system_logo" widget="image"/>
+                        </setting>
+                    </block>
+                    <block title="Nav">
+                        <setting>
+                            <field name="nav_logo" widget="image"/>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

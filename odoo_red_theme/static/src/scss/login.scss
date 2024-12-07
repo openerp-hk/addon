@@ -1,0 +1,91 @@
+.relative-box {
+  position: relative;
+
+  input, select {
+    padding: 0.375rem 0.75rem 0.375rem 35px;
+    border: none;
+    border-bottom: 1px solid #CED4DA;
+    border-radius: 0;
+    width: 100%;
+
+    &:focus, &:focus-visible {
+      border: none;
+      border-bottom: 1px solid $theme-color;
+      box-shadow: none;
+      outline: none !important;
+    }
+  }
+
+  div {
+    position: absolute;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+
+    svg {
+      width: 24px;
+      height: 100%;
+      fill: $theme-color;
+    }
+  }
+}
+
+.submit_box {
+  div {
+    display: none !important;
+  }
+}
+
+.btn-primary {
+  background-color: $theme-color !important;
+  border-color: $theme-color !important;
+  border-radius: 40px;
+  height: 48px;
+
+  &:hover {
+    background-color: darken($theme-color, 10%) !important;
+    border-color: darken($theme-color, 10%) !important;
+  }
+}
+
+#wrapwrap {
+  overflow: hidden;
+  background: white;
+
+  .login_box {
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-image: url(/openerphk_theme/static/src/img/login.png);
+
+    .login_form {
+      display: flex;
+      background-color: transparent !important;
+      max-width: 50%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+
+      form {
+        width: 600px;
+
+        .title {
+          text-align: center;
+          color: $theme-color;
+          margin-bottom: 6em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #wrapwrap {
+    .login_form {
+      max-width: 100%!important;
+    }
+  }
+}

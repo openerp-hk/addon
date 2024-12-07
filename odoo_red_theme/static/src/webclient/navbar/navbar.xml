@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+    <t t-inherit="web.NavBar" t-inherit-mode="extension">
+        <xpath expr="//t[@t-if='currentAppSections.length']" position="replace"/>
+        <xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
+            <div class="system_box">
+                <img t-att-src="getSystemLogo()"/>
+            </div>
+        </xpath>
+        <xpath expr="//DropdownItem[@t-if='currentApp']" position="replace"/>
+    </t>
+
+</templates>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="openerphk_theme_login" inherit_id="web.login">
+        <xpath expr="//form" position="replace">
+            <form class="oe_login_form" role="form" t-attf-action="/web/login" method="post" onsubmit="this.action = '/web/login' + location.hash">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+                <div class="title">
+                    <h1>accounts login</h1>
+                </div>
+
+                <div class="mb-5 relative-box" t-if="databases and len(databases) &gt; 1">
+                    <script type="text/javascript">
+                        function change_db(){
+                            const db = document.querySelector('#db').value;
+                            location.href = '/web?db=' + db;
+                        }
+                    </script>
+                    <div>
+                        <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="37529"><path d="M856.874667 648.533333l51.285333 30.762667a21.333333 21.333333 0 0 1 0 36.608l-374.186667 224.512a42.666667 42.666667 0 0 1-43.946666 0l-374.186667-224.512a21.333333 21.333333 0 0 1 0-36.608l51.285333-30.762667L512 855.466667l344.874667-206.933334z m0-200.533333l51.285333 30.762667a21.333333 21.333333 0 0 1 0 36.608L512 753.066667l-396.16-237.696a21.333333 21.333333 0 0 1 0-36.608l51.285333-30.762667L512 654.933333l344.874667-206.933333z m-322.944-392.149333l374.229333 224.512a21.333333 21.333333 0 0 1 0 36.608L512 554.666667 115.84 316.970667a21.333333 21.333333 0 0 1 0-36.608l374.186667-224.512a42.666667 42.666667 0 0 1 43.946666 0h-0.042666zM512 142.165333L251.178667 298.666667 512 455.168 772.821333 298.666667 512 142.165333z" fill="" p-id="37530"></path></svg>
+                    </div>
+                    <select onchange="change_db()" id="db">
+                        <option t-foreach="databases" t-as="db" t-att-value="db" t-esc="db" t-att-selected="request.db == db"/>
+                    </select>
+                </div>
+
+                <div class="mb-5 field-login relative-box">
+                    <div>
+                        <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9912"><path d="M512 447.223c-88.224 0-160-71.776-160-160s71.776-160 160-160c88.225 0 160 71.776 160 160s-71.775 160-160 160z m0-256c-52.935 0-96 43.065-96 96s43.065 96 96 96 96-43.065 96-96-43.065-96-96-96zM454.901 870.594c-96.594 0-184.933-3.802-231.263-49.955C203.308 800.386 193 774.164 193 742.701c0-31.629 10.247-62.812 30.457-92.686 17.978-26.573 42.908-50.741 74.098-71.833C359.256 536.46 437.418 512.53 512 512.53c74.55 0 152.55 23.943 214.002 65.691 31.05 21.094 55.861 45.273 73.746 71.867C819.822 679.937 830 711.096 830 742.701c0 31.552-10.317 57.827-30.664 78.097-50.714 50.521-151.822 50.128-258.88 49.723a7395.45 7395.45 0 0 0-56.914-0.001c-9.605 0.037-19.163 0.074-28.641 0.074zM512 806.447c9.567 0 19.149 0.037 28.701 0.073 49.52 0.191 96.284 0.37 135.808-4.396 38.418-4.633 64.546-13.604 77.659-26.668 5.079-5.06 11.832-13.96 11.832-32.755 0-38.089-27.688-78.744-75.963-111.54C638.933 596.442 574.04 576.53 512 576.53c-126.309 0-255 83.862-255 166.171 0 18.675 6.738 27.547 11.807 32.596 32.045 31.922 128.975 31.55 214.491 31.224 9.556-0.037 19.139-0.074 28.702-0.074z" fill="" p-id="9913"></path></svg>
+                    </div>
+                    <input type="text" placeholder="Please enter your account" name="login" t-att-value="login" id="login" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off"/>
+                </div>
+
+                <div class="mb-5 relative-box">
+                    <div>
+                        <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="26962"><path d="M684.6 355.3H671v-31.6c0-88.2-71.5-159.6-159.6-159.6-88.2 0-159.6 71.5-159.6 159.6v31.6h-12.4c-81 0-146.7 65.7-146.7 146.7v246.6c0 81 65.7 146.7 146.7 146.7h345.3c81 0 146.7-65.7 146.7-146.7V502c-0.2-81-65.8-146.7-146.8-146.7z m-268.9-31.5c0-52.7 42.9-95.6 95.6-95.6 52.7 0 95.6 42.9 95.6 95.6v31.3H415.7v-31.3z m351.5 424.8c0 45.6-37.1 82.7-82.7 82.7H339.3c-45.6 0-82.7-37.1-82.7-82.7V502c0-45.6 37.1-82.7 82.7-82.7h345.3c45.6 0 82.7 37.1 82.7 82.7v246.6zM512 544.1c-17.7 0-32 14.3-32 32v127.7c0 17.7 14.3 32 32 32s32-14.3 32-32V576.1c0-17.6-14.3-32-32-32z" p-id="26963"></path></svg>
+                    </div>
+                    <input type="password" placeholder="Please input a password" name="password" id="password" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
+                </div>
+
+                <p class="alert alert-danger" t-if="error" role="alert">
+                    <t t-esc="error"/>
+                </p>
+                <p class="alert alert-success" t-if="message" role="status">
+                    <t t-esc="message"/>
+                </p>
+
+                <div t-attf-class="submit_box clearfix oe_login_buttons text-center gap-1 d-grid mb-1 {{'pt-2' if form_small else 'pt-3'}}">
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                </div>
+
+                <input type="hidden" name="redirect" t-att-value="redirect"/>
+            </form>
+        </xpath>
+    </template>
+
+    <template id="openerphk_theme_login_layout" inherit_id="web.login_layout">
+        <xpath expr="//div[@class='container py-5']" position="replace">
+            <div class="container login_box">
+                <div class="card-body login_form">
+                    <t t-out="0"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

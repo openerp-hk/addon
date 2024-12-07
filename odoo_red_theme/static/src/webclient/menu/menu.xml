@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="openerphk.Menu">
+        <div class="o_menu" t-ref="menu">
+            <ul class="menu">
+                <li class="o_menu_app cursor-pointer o_nav" t-if="!env.isSmall">
+                    <a href="javascript:void(0)" t-on-click="foldMenu">
+                        <img t-att-src="getNavIconData()" class="o_menu_icon"/>
+                        <span>Navigation menu</span>
+                    </a>
+                </li>
+                <li t-foreach="menuService.getApps()" t-as="app" t-key="app.id" class="o_menu_app cursor-pointer">
+                    <t t-if="app.children.length">
+                        <a href="javascript:void(0)" t-att-data-menu-xmlid="app.xmlid" t-on-click="(ev)=>this.clickMenu(ev)">
+                            <img t-att-src="getMenuIconData(app)" class="o_menu_icon"/>
+                            <span t-esc="app.name"/>
+                            <i class="fa fa-chevron-right"/>
+                        </a>
+                        <t t-call="Menu.Children">
+                            <t t-set="children" t-value="app.children"/>
+                            <t t-set="appID" t-value="app.appID"/>
+                            <t t-set="menuID" t-value="app.id"/>
+                        </t>
+                    </t>
+                    <t t-else="">
+                        <a t-att-href="'#menu_id=' + app.id + '&amp;action_id=' + app.actionID" t-att-class="{'active': app.id == currentMenu.id}" t-att-menuID="app.id" t-att-data-menu-xmlid="app.xmlid" t-on-click="(ev)=>this.clickMenu(ev, app.id)">
+                            <img t-att-src="getMenuIconData(app)" class="o_menu_icon"/>
+                            <span t-esc="app.name"/>
+                        </a>
+                    </t>
+                </li>
+            </ul>
+        </div>
+    </t>
+
+    <t t-name="Menu.Children">
+        <ul class="children-menu">
+            <li t-foreach="children" t-as="menu" t-key="menu_index">
+                <t t-set="menuData" t-value="menuService.getMenu(menu)"/>
+                <t t-if="menuData.children.length">
+                    <a href="javascript:void(0)" t-att-data-menu-xmlid="menuData.xmlid" t-on-click="(ev)=>this.clickMenu(ev)">
+                        <img t-att-src="getMenuIconData(menuData)" class="o_menu_icon"/>
+                        <span t-esc="menuData.name"/>
+                        <i class="fa fa-chevron-right"/>
+                    </a>
+                    <t t-call="Menu.Children">
+                        <t t-set="children" t-value="menuData.children"/>
+                        <t t-set="appID" t-value="menuData.appID"/>
+                        <t t-set="menuID" t-value="menuData.id"/>
+                    </t>
+                </t>
+                <t t-else="">
+                    <a t-att-href="'#menu_id=' + menuData.id + '&amp;action_id=' + menuData.actionID" t-att-class="{'active': menuData.id == currentMenu.id}" t-att-menuID="menuData.id" t-att-data-menu-xmlid="menuData.xmlid" t-on-click="(ev)=>this.clickMenu(ev, menuData.id)">
+                        <img t-att-src="getMenuIconData(menuData)" class="o_menu_icon"/>
+                        <span t-esc="menuData.name"/>
+                    </a>
+                </t>
+            </li>
+        </ul>
+    </t>
+
+</templates>
