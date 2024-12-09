@@ -34,7 +34,7 @@
     "sequence": 1,
     'price': 19.99,
     'currency': 'USD',
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/icon.gif'],
     'license': 'LGPL-3',
     'assets': {
         'web.assets_backend': [
