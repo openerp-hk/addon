@@ -8,7 +8,7 @@
     """,
     'author': "Odoo.Red team",
     'website': "http://cdn.odoo.red",
-    'category': 'Widget',
+    'category': 'Extra Tools',
     'version': '0.1',
     "license": "LGPL-3",
     'depends': ['base'],
