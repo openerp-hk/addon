@@ -6,7 +6,7 @@
     'description': """
         Long description of module's purpose
     """,
-    'author': "Odoo.Red",
+    'author': "Odoo.Red team",
     'website': "http://cdn.odoo.red",
     'category': 'Widget',
     'version': '0.1',
