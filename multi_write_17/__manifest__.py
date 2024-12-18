@@ -19,5 +19,5 @@
             "multi_write_v17/static/src/js/multi_write_v17.js",
         ]
     },
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/images/icon.png'],
 }
