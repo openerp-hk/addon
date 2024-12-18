@@ -6,7 +6,7 @@
     'description': """
         Long description of module's purpose
     """,
-    'author': "Odoo.red, Josh.Feng",
+    'author': "Odoo.Red",
     'website': "http://cdn.odoo.red",
     'category': 'Widget',
     'version': '0.1',
@@ -19,5 +19,5 @@
             "multi_write_v17/static/src/js/multi_write_v17.js",
         ]
     },
-    'images': ['static/description/icon.jpg'],
+    'images': ['static/description/icon.png'],
 }
