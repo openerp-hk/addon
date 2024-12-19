@@ -32,6 +32,7 @@
             'keypad_float/static/src/views/**/*',
         ]
     },
+    'images': ['static/description/icon.gif'],
     'application': True,
     'installable': True,
 }
