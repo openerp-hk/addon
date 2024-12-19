@@ -15,7 +15,7 @@
     'author': "Odoo.Red team",
     'website': "https://cdn.odoo.red/",
 
-    'category': 'Extra tools',
+    'category': 'Extra Tools',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
