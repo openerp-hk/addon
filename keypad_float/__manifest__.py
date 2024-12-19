@@ -15,7 +15,7 @@
     'author': "Odoo.Red team",
     'website': "https://cdn.odoo.red/",
 
-    'category': 'keypad/keypad',
+    'category': 'Extra tools',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -35,4 +35,5 @@
     'images': ['static/description/icon.gif'],
     'application': True,
     'installable': True,
+    'license': 'LGPL-3',
 }
