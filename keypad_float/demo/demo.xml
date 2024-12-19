@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+<!--          <record id="product_category_new_1" model="product.category.new">-->
+<!--            <field name="name">可采购</field>-->
+<!--          </record>-->
+
+<!--          <record id="product_category_new_2" model="product.category.new">-->
+<!--            <field name="name">manufacturable</field>-->
+<!--          </record>-->
+
+<!--          <record id="product_category_new_3" model="product.category.new">-->
+<!--            <field name="name">可销售</field>-->
+<!--          </record>-->
+
+    </data>
+</odoo>

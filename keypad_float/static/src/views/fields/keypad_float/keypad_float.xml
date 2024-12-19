@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="keypad_float.KeypadFloat">
+        <div
+            name="lalala"
+            class="o_input o_field_widget o_readonly_modifier o_field_char"
+            t-on-click="(ev) => this.onKeyClick(ev)"
+        >
+            <span t-esc="value?value:0"/>
+        </div>
+    </t>
+    <t t-name="keypad_float.KeypadFloatPopOver">
+        <div>
+            <div class="input-keys">
+                <t t-set="value_1" t-value="1"/>
+                <t t-set="value_2" t-value="2"/>
+                <t t-set="value_3" t-value="3"/>
+                <t t-set="value_4" t-value="4"/>
+                <t t-set="value_5" t-value="5"/>
+                <t t-set="value_6" t-value="6"/>
+                <t t-set="value_7" t-value="7"/>
+                <t t-set="value_8" t-value="8"/>
+                <t t-set="value_9" t-value="9"/>
+                <t t-set="value_0" t-value="0"/>
+                <div class="row-one">
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_1)"
+                    >1</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_2)"
+                    >2</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_3)"
+                    >3</button>
+                </div>
+                <div class="row-two">
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_4)"
+                    >4</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_5)"
+                    >5</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_6)"
+                    >6</button>
+                </div>
+                <div class="row-three">
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_7)"
+                    >7</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_8)"
+                    >8</button>
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_9)"
+                    >9</button>
+                </div>
+                <div class="row-four">
+                    <button class="input-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum(value_0)"
+                    >0</button>
+                    <button class="input-key delete-key"  type="button"
+                            t-on-click="() => this.props.widget.setNum('del')"
+                    >del</button>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</templates>
