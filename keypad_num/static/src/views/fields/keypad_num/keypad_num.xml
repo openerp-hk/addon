@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="keypad_num.KeypadNum">
+        <div
+            name="lalala"
+            class="o_input o_field_widget o_readonly_modifier o_field_char"
+            t-on-click="(ev) => this.onKeyClick(ev)"
+        >
+            <span t-esc="value?value:0"/>
+        </div>
+    </t>
+    <t t-name="keypad_num.KeypadNumPopOver">
+        <div>
+            <div >
+                <t t-set="value_1" t-value="1"/>
+                <t t-set="value_2" t-value="2"/>
+                <t t-set="value_3" t-value="3"/>
+                <t t-set="value_4" t-value="4"/>
+                <t t-set="value_5" t-value="5"/>
+                <t t-set="value_6" t-value="6"/>
+                <t t-set="value_7" t-value="7"/>
+                <t t-set="value_8" t-value="8"/>
+                <t t-set="value_9" t-value="9"/>
+                <t t-set="value_0" t-value="0"/>
+                <ul id="keyboard">
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_1)"
+                    >1</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_2)"
+                    >2</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_3)"
+                    >3</li>
+                    <li class="letter clearl"
+                        t-on-click="() => this.props.widget.setNum(value_4)"
+                    >4</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_5)"
+                    >5</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_6)"
+                    >6</li>
+
+                    <li class="letter clearl"
+                        t-on-click="() => this.props.widget.setNum(value_7)"
+                    >7</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_8)"
+                    >8</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum(value_9)"
+                    >9</li>
+                    <li class="letter clearl"
+                        t-on-click="() => this.props.widget.setNum(value_0)"
+                    >0</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum('ac')"
+                    >AC</li>
+                    <li class="letter"
+                        t-on-click="() => this.props.widget.setNum('del')"
+                    >del</li>
+                </ul>
+            </div>
+        </div>
+    </t>
+
+</templates>
