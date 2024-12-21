@@ -1,0 +1,394 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bom_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-31 06:02+0000\n"
+"PO-Revision-Date: 2023-05-31 06:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_mrp_bom
+msgid "Bill of Material"
+msgstr "物料清单"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_mrp_bom_line
+msgid "Bill of Material Line"
+msgstr "BOM明细行"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__type
+msgid "BoM Type"
+msgstr "BOM类型"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: bom_order
+#. openerp-web
+#: code:addons/bom_order/static/src/views/fields/many2one/many2one_field.js:0
+#, python-format
+msgid "Create %s"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__create_uid
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__create_uid
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__create_date
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__create_date
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__display_name
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__display_name
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__id
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__id
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__id
+msgid "ID"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__mrp_bom__type__phantom
+msgid "Kit"
+msgstr "套件"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category____last_update
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type____last_update
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__write_uid
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__write_uid
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__write_date
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__write_date
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__mrp_bom__type__normal
+msgid "Manufacture this product"
+msgstr "制造此产品"
+
+#. module: bom_order
+#. openerp-web
+#: code:addons/bom_order/static/src/views/fields/many2one/many2one_field.js:0
+#, python-format
+msgid "Open: %s"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_product_category
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom_line__categ_id
+msgid "Product Category"
+msgstr "产品类别"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.bom_order_report_saleorder_document
+msgid "Product Description"
+msgstr "产品描述"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单行"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_res_users
+msgid "User"
+msgstr "用户"
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.service_code_action_window
+#: model:ir.model.fields,field_description:bom_order.field_res_partner__service_code
+#: model:ir.model.fields,field_description:bom_order.field_res_users__service_code
+#: model:ir.ui.menu,name:bom_order.service_code_menu
+msgid "业务代码"
+msgstr ""
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.service_code_list
+#: model_terms:ir.ui.view,arch_db:bom_order.view_partner_customer_form
+msgid "Salespeople"
+msgstr "业务账号"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.service_code_list
+msgid "业务账号名称"
+msgstr ""
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "产品"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__product_name
+#: model_terms:ir.ui.view,arch_db:bom_order.mrp_bom_form_view_new
+msgid "product name"
+msgstr "产品名称"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_product_category_belong
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__category_belong
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom_line__category_belong
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom_line__category_belong_id
+#: model:ir.model.fields,field_description:bom_order.field_product_product__category_belong
+#: model:ir.model.fields,field_description:bom_order.field_product_template__category_belong
+#: model_terms:ir.ui.view,arch_db:bom_order.mrp_bom_form_view_new
+msgid "product cut_over"
+msgstr "产品所属类"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__description
+#: model:ir.model.fields,field_description:bom_order.field_sale_order_line__description
+msgid "product description"
+msgstr "产品描述"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom_line__product_abbreviation
+#: model:ir.model.fields,field_description:bom_order.field_product_product__product_abbreviation
+#: model:ir.model.fields,field_description:bom_order.field_product_template__product_abbreviation
+msgid "abbreviation"
+msgstr "简称"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__product_template_ids
+msgid "related product"
+msgstr "关联产品"
+
+#. module: bom_order
+#. openerp-web
+#: code:addons/bom_order/static/src/views/fields/many2one/many2one_field.xml:0
+#, python-format
+msgid "创建BOM"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_product_product__manufacture_ok
+#: model:ir.model.fields,field_description:bom_order.field_product_template__manufacture_ok
+#: model_terms:ir.ui.view,arch_db:bom_order.product_template_form_view
+msgid "manufacturable"
+msgstr "可制造"
+
+#. module: bom_order
+#: model:ir.ui.menu,name:bom_order.customer_config
+msgid "客户"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_res_partner__costumer_code
+#: model:ir.model.fields,field_description:bom_order.field_res_users__costumer_code
+msgid "Customer Code"
+msgstr "客户代码"
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.costumer_type_action_window
+#: model:ir.ui.menu,name:bom_order.customer_type_menu
+msgid "客户类型"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_costumer_type
+msgid "客户类型代号"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__type
+#: model:ir.model.fields,field_description:bom_order.field_res_partner__costumer_type
+#: model:ir.model.fields,field_description:bom_order.field_res_users__costumer_type
+msgid "Customer Type"
+msgstr "客户类型代码"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_costumer_type__name
+msgid "客户类型名称"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__category_belong
+msgid "Category"
+msgstr "类别"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__belong_ids
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom_line__belong_ids
+msgid "Category_ids"
+msgstr "类别ids"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_product_category_belong__name
+msgid "Category name"
+msgstr "类别名"
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.product_category_belong_act_window
+#: model:ir.ui.menu,name:bom_order.product_category_belong_action
+msgid "Category configuration"
+msgstr "所属类配置"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_product_product__description
+#: model:ir.model.fields,field_description:bom_order.field_product_template__description
+msgid "description"
+msgstr "描述"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.mrp_bom_form_view_new
+msgid "组件"
+msgstr ""
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.combination_category_act_window
+#: model:ir.model,name:bom_order.model_combination_category
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__category_belong_ids
+#: model:ir.model.fields,field_description:bom_order.field_mrp_bom__combination_category
+#: model:ir.ui.menu,name:bom_order.combination_category_action
+#: model_terms:ir.ui.view,arch_db:bom_order.mrp_bom_form_view_new
+msgid "Combination category"
+msgstr "组合类别"
+
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.category_sequence_act_window
+#: model:ir.ui.menu,name:bom_order.category_sequence_action
+msgid "Category sequence"
+msgstr "类别排序"
+
+#. module: bom_order
+#: model:ir.actions.act_window,name:bom_order.virtual_category_act_window
+#: model:ir.ui.menu,name:bom_order.virtual_category_action
+msgid "Virtual category"
+msgstr "虚拟类别"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_combination_category__name
+msgid "combination category name"
+msgstr "组合类别名称"
+
+
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__draft
+msgid "Quotation"
+msgstr "报价"
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__draft_confirm
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Quotation Confirm"
+msgstr "报价确认"
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__sent
+msgid "Quotation Sent"
+msgstr "报价发送"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_sale_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__sale
+msgid "Sales Order"
+msgstr "订单"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Send PRO-FORMA Invoice"
+msgstr "发送形式结算单"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Send by Email"
+msgstr "通过EMail发送"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Set to Quotation"
+msgstr "设为报价"
+
+#. module: bom_order
+#: model:ir.model.fields,field_description:bom_order.field_sale_order__state
+msgid "Status"
+msgstr "状态"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_stock_picking
+msgid "Transfer"
+msgstr "调拨"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Void Transaction"
+msgstr "无效交易"
+
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__cancel
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Capture Transaction"
+msgstr "捕捉交易"
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: bom_order
+#: model:ir.model,name:bom_order.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: bom_order
+#: model:ir.model.fields.selection,name:bom_order.selection__sale_order__state__done
+msgid "Locked"
+msgstr "锁定"
+
+
+#. module: bom_order
+#: model_terms:ir.ui.view,arch_db:bom_order.view_order_form
+msgid "Create Invoice"
+msgstr "创建结算单"

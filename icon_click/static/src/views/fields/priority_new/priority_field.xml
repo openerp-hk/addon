@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="stock_priority.PriorityField">
+        <div class="o_priority" role="radiogroup" name="priority" aria-label="Priority">
+            <a
+                href="#"
+                class="o_priority_star fa"
+                role="radio"
+                t-att-class="'fa-'+fa"
+                t-att-data-tooltip="getTip()"
+                t-on-click.prevent.stop="() => this.onFaClicked()"
+            />
+        </div>
+    </t>
+
+</templates>

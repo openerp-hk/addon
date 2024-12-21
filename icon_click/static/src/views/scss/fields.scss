@@ -1,0 +1,19 @@
+.o_field_widget.o_priority > .o_priority_star.fa-square,
+.o_field_widget .o_priority > .o_priority_star.fa-square {
+  color: green;
+}
+
+.o_field_widget.o_priority > .o_priority_star.fa-circle,
+.o_field_widget .o_priority > .o_priority_star.fa-circle {
+  color: blue;
+}
+
+.o_field_widget.o_priority > .o_priority_star.fa-play,
+.o_field_widget .o_priority > .o_priority_star.fa-play {
+  color: red;
+}
+
+.o_field_widget.o_priority > .o_priority_star.fa-flag,
+.o_field_widget .o_priority > .o_priority_star.fa-flag {
+  color: purple;
+}
