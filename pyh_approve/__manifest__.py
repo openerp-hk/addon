@@ -13,7 +13,6 @@
     'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red",
     'license': 'LGPL-3',
-    #'maintainer': 'Pengyunhui',
     'category': 'Tools',
     'sequence': '1',
     
