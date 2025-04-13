@@ -8,7 +8,7 @@
      This add-on is a functional plug-in that allows users to control the visibility of row numbers in list views, tree views, and other similar views.
     """,
 
-    'author': "Odoo.RED Team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     # Categories can be used to filter modules in modules listing
