@@ -9,7 +9,7 @@
        To boost efficiency, this module allows users to toggle row icons with a single click, highlighting the status of the specific row for easier identification and management.
     """,
 
-    'author': "Odoo.Red team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     'category': 'Extra Tools',
