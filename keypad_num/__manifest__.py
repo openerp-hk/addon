@@ -9,7 +9,7 @@
         This widget triggers a keypad, enabling users to input digits directly without the need for a physical keyboard.
     """,
 
-    'author': "Odoo.Red team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     'category': 'Extra Tools',
