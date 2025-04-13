@@ -9,7 +9,7 @@
         Frees your hands from the mouse, boosts operation efficiency.  
     """,
 
-    'author': "Odoo.Red team, Odoo SA, Josh.Feng",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     # Free your hands from the mouse!
