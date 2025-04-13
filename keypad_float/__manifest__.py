@@ -12,7 +12,7 @@
        This feature improves usability on touch-screen devices or for users who prefer on-screen input options.
     """,
 
-    'author': "Odoo.Red team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     'category': 'Extra Tools',
