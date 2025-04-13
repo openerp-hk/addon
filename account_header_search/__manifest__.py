@@ -9,7 +9,7 @@
     
     """,
 
-    'author': "Odoo.RED team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red",
     'category': 'Extra Tools',
     'version': '17.0.0.1',
