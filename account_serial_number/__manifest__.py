@@ -8,7 +8,7 @@
     This add-on is a functional plug-in that allows users to control the visibility of row numbers in the accounting modules.
     """,
 
-    'author': "Odoo.RED team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red",
     'category': 'Extra Tools',
     'version': '17.0.0.1',
