@@ -8,7 +8,7 @@
      Custom themes tailored to signify your business needs can further enhance your operational efficiency.
     """,
 
-    'author': "odoo.red",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
 
     # Categories can be used to filter modules in modules listing
