@@ -2,7 +2,7 @@
     'name': 'Numeric value to words',
     'summary': 'Convert number to words!',
     'description': 'By adding widget="number_to_words" to float fields, the widget will display numeric values as words',
-    'author': "Odoo.RED team",
+    'author': "cdn.odoo.red",
     'website': "https://cdn.odoo.red/",
     'category': 'Extra Tools',
     'version': '17.0.0.1',
